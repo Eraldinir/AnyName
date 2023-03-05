@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git_test_folder\\S4\\anyname\\anyname.csproj": {}
+    "C:\\Git_test_folder\\S4\\AnyName\\anyname.csproj": {}
   },
   "projects": {
-    "C:\\Git_test_folder\\S4\\anyname\\anyname.csproj": {
+    "C:\\Git_test_folder\\S4\\AnyName\\anyname.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git_test_folder\\S4\\anyname\\anyname.csproj",
+        "projectUniqueName": "C:\\Git_test_folder\\S4\\AnyName\\anyname.csproj",
         "projectName": "anyname",
-        "projectPath": "C:\\Git_test_folder\\S4\\anyname\\anyname.csproj",
+        "projectPath": "C:\\Git_test_folder\\S4\\AnyName\\anyname.csproj",
         "packagesPath": "C:\\Users\\39389\\.nuget\\packages\\",
-        "outputPath": "C:\\Git_test_folder\\S4\\anyname\\obj\\",
+        "outputPath": "C:\\Git_test_folder\\S4\\AnyName\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\39389\\AppData\\Roaming\\NuGet\\NuGet.Config"
