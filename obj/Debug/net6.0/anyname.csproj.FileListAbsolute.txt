@@ -1,0 +1,5 @@
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.csproj.AssemblyReference.cache
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.AssemblyInfoInputs.cache
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.AssemblyInfo.cs
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.csproj.CoreCompileInputs.cache
