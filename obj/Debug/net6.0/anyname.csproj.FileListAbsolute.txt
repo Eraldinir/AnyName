@@ -3,3 +3,13 @@ C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.GeneratedMSBuildEditorCon
 C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.AssemblyInfoInputs.cache
 C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.AssemblyInfo.cs
 C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.csproj.CoreCompileInputs.cache
+C:\Git_test_folder\S4\anyname\bin\Debug\net6.0\anyname.exe
+C:\Git_test_folder\S4\anyname\bin\Debug\net6.0\anyname.deps.json
+C:\Git_test_folder\S4\anyname\bin\Debug\net6.0\anyname.runtimeconfig.json
+C:\Git_test_folder\S4\anyname\bin\Debug\net6.0\anyname.dll
+C:\Git_test_folder\S4\anyname\bin\Debug\net6.0\anyname.pdb
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.dll
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\refint\anyname.dll
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.pdb
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\anyname.genruntimeconfig.cache
+C:\Git_test_folder\S4\anyname\obj\Debug\net6.0\ref\anyname.dll

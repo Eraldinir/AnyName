@@ -4,9 +4,9 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.Write("Enter 5 digits: "());
+Console.Write("Enter 5 digits: ");
 int N = Convert.ToInt32(Console.ReadLine());
-if (((N - (N % 10000)) / 10000) == (N % 10) && (((N - (N % 1000)) / 1000) % 10) == (((N - (N % 10)) / 10) % 10));
+if (((N - (N % 10000)) / 10000) == (N % 10) && (((N - (N % 1000)) / 1000) % 10) == (((N - (N % 10)) / 10) % 10))
 {
     Console.WriteLine("OMG, it`s a real polyndrome!");
 }
