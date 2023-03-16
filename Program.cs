@@ -102,17 +102,15 @@
 // Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
-// int[] massiv = new int[25];
+// int[] array = new int[30];
 // int sum = 0;
-// for (int i = 0; i < massiv.Length; i++)
+// for (int i = 0; i < array.Length; i++)
 // {
-//     massiv[i] = new Random().Next(-1000, 1000);
-//     while (i % 2 == 1)
+//     array[i] = new Random().Next(-1000, 1000);
+//     if (i % 2 == 1)
 //     {
-//         sum = sum + massiv[i];
-//         i++;
+//         sum = sum + array[i];
 //     }
-//     Console.Write(i + ", ");
+//     Console.Write($"{array[i]}, ");
 // }
-// Console.Write("");
-// Console.Write(sum);
+// Console.Write($"----> {sum} IS SUMM ! ");
