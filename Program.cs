@@ -153,18 +153,32 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-string number = Console.ReadLine();
-string[] Array = number.Split(", ");       // разделил 0, 0, 0, 0, 0, 0
-int[] result = new int[Array.Length];      // я не совсем понял что ограничивает размер массива
-int count = 0;                             
-for (int i = 0; i < Array.Length; i++)
-{
-    result[i] = Convert.ToInt32(Array[i]);
-    if (result[i] > 0) 
-    {
-        count++;
-    }
-}
-Console.WriteLine($"We have entered: [{String.Join("; ", result)}]");
-Console.WriteLine($"Above zero: {count}");
+// string? number = Console.ReadLine();       
+// string[] Array = number.Split(", ");       // разделил 0, 0, 0, 0, 0, 0
+// int[] result = new int[Array.Length];      // я не совсем понял что ограничивает размер массива
+// int count = 0;                             
+// for (int i = 0; i < Array.Length; i++)
+// {
+//     result[i] = Convert.ToInt32(Array[i]);
+//     if (result[i] > 0) 
+//     {
+//         count++;
+//     }
+// }
+// Console.WriteLine($"We have entered: [{String.Join("; ", result)}]");
+// Console.WriteLine($"Above zero: {count}");
 //=================================================================================================================================
+// Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.\
+// b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
+
+      // тут я немного ориентируюсь на разбор задачи. Уравнение прямой из геометрии я внезапно вспомнил)))) прям осинило, что y=Ax+B, а тут речь о том же самом.
+Console.WriteLine($"Enter parameters 'a' & 'b' for 'Y = a * X + b', do it twice :)");     
+double a1 = Convert.ToInt32(Console.ReadLine());
+double b1 = Convert.ToInt32(Console.ReadLine());
+double a2 = Convert.ToInt32(Console.ReadLine());
+double b2 = Convert.ToInt32(Console.ReadLine());
+
+double X = (b2 - b1) / (a2 - a1);
+double Y = a1 * X + b1;
+
+Console.WriteLine($"Cross point coordinate: {X};{Y}");
